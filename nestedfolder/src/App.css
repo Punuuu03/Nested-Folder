@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-image: url('https://img.freepik.com/premium-photo/blue-white-christmas-background-with-snowflakes-snowflakes_717440-6913.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+
+.content {
+  text-align: center;
+  color: #ffffff; 
+  background-color: rgba(0, 0, 0, 0.397); 
+  padding: 20px;
+  border-radius: 10px;
+    height: 300px;
+  width: 500px;
+  
+}
+button {
+  background-color: #3173c4; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.content h1 {
+  font-size: 5rem; 
+  margin-bottom: 10px;
+}
+.content p {
+  font-size: 30px; 
+  margin-bottom: 10px;
+}
+button:hover{
+  background-color: #222c39;
+}
+
+
+
